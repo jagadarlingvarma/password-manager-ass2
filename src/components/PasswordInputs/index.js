@@ -162,9 +162,10 @@ class PasswordInputs extends Component {
         <div className="password-show-container">
           <div classNames="show-passwords-container">
             <div className="show-password-card">
-              <h1 className="show-heading">
-                Your Passwords <span className="count">{count}</span>
-              </h1>
+              <div>
+                <h1>Your Passwords</h1>
+                 <p>{count}</p>
+              </div>
               <div className="search-password-container">
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png"
